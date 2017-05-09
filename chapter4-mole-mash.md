@@ -7,7 +7,7 @@
 | コンポーネント | パレット | 命名 | 用途 |
 | :--- | :--- | :--- | :--- |
 | Canvas | Drawing and Animation | Canvas1 | ImageSpriteのコンテナ |
-|  | ImageSprite | Drawing and Animation | Mole    タッチ目标 |
+|  ImageSprite | Drawing and Animation | Mole |  タッチ目标 |
 | Button | User Interface | ResetButton | スコアリセット |
 | Clock | User Interface | Clock1 | 移動速度 |
 | Sound | Media | Sound1 | 的中された際振動 |
