@@ -2,7 +2,7 @@
 
 PaintPotはネコの顔に赤青緑の線を引いたり点をうったりでき、書いたものを消したり、点を打つ大きさを変えたり、背景の写真をカメラで撮ったりできるアプリです。
 
-**          
+**            
 **[![](http://app.edu2web.com/wp-content/uploads/2017/04/PaintPotPart1PhoneImage.png)](http://app.edu2web.com/wp-content/uploads/2017/04/PaintPotPart1PhoneImage.png)
 
 ### 簡略な手順
@@ -27,7 +27,7 @@ LayoutからHorizontalArrangementを1個持って来て、
 
 左からボタンを持って来てレイアウトの中に4個置きます。こんな感じに並べましょう
 
-最後にMediaからCameraを持って来てDesignerでの作業は終了になります。**          
+最後にMediaからCameraを持って来てDesignerでの作業は終了になります。**            
 **
 
 ![](https://lh4.googleusercontent.com/obUijJ_Hr67a49zYuzNjLNZUz8FXD8yOa0Xl0in7hnUoZbr2ZAFfB7lA2lK-XYAUw-iFA8YuI9pO8g_SRWc7yNyXB8SQ-m1yCvK0c-ONSS7GcPVZioATwJuPEOAPmiht9tCrpWZ8)
@@ -44,7 +44,7 @@ LayoutからHorizontalArrangementを1個持って来て、
 
 ![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/shunXnegi/20141226/20141226174814.png "f:id:shunXnegi:20141226174814p:plain")
 
-次にタッチしたところに点を打てるようにします。…って言ってもやることはさっきとほとんど一緒です。こんな感じ。点の大きさはMathのとこから数字を持って来て、とりあえず5をセットしました。**          
+次にタッチしたところに点を打てるようにします。…って言ってもやることはさっきとほとんど一緒です。こんな感じ。点の大きさはMathのとこから数字を持って来て、とりあえず5をセットしました。**            
 **
 
 ![](https://lh4.googleusercontent.com/KuTyp43SJA8P_mua8KDYK3k056YK_gBJbe--3kDoaG39DyWrJCfrGyqR1Dxf_C2FAKJ1GZjFHmXynJPvdafRZjuO7Hsk54NVuZmZyJLsf20Lj9GMh2qNLsvjXU1JA1-S1tAI8f7_)
@@ -54,4 +54,16 @@ LayoutからHorizontalArrangementを1個持って来て、
 ![](/assets/takepic.png)
 
 これでPaintPotは完成です！
+
+完成したプログラム
+
+![](/assets/PaintPotBlocks.png)
+
+### 改造
+
+1. ペンの太さの変更（大丸、小丸）
+2. 現在の色、ペンの太さの表示
+3. ペンの太さの自由設定
+
+
 

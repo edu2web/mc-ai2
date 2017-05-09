@@ -2,9 +2,25 @@
 
 ### ![](/assets/molemash.png)
 
+表3- 1 “打地鼠”应用中的全部组件列表
+
+| コンポーネント | パレット | 命名 | 用途 |
+| :--- | :--- | :--- | :--- |
+| Canvas | Drawing and Animation | Canvas1 | ImageSpriteのコンテナ |
+|  | ImageSprite | Drawing and Animation | Mole    タッチ目标 |
+| Button | User Interface | ResetButton | スコアリセット |
+| Clock | User Interface | Clock1 | 移動速度 |
+| Sound | Media | Sound1 | 的中された際振動 |
+| Label | User Interface | HitsLabel | 的中と表示 |
+| Label | User Interface | HitsCountLabel | 的中数の表示 |
+| HorizontalArrangement | Layout | HorizontalArrangement1 | HitsLabelとHitsCountLabel置き場 |
+| Label | User Interface | MissesLabel | 失敗と表示 |
+| Label | User Interface | MissesCountLabel | 失敗回数 |
+| HorizontalArrangement | Layout | HorizontalArrangement2 | MissesLabelとMissesCountLabel置き場 |
+
 ### デザイナー画面
 
-まずは、新しいプロジェクトを作りましょう。l名前は、「mole」としました。
+まずは、新しいプロジェクトを作りましょう。名前は、「mole」としました。
 
 「Screen1」ができております。さっそく「Screen1」のプロパティから変更します。
 
