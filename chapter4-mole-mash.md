@@ -1,14 +1,16 @@
 # **第4章　アニメーション\(Mole Mash\)**
 
+### ![](/assets/molemash.png)
+
 ### デザイナー画面
 
 まずは、新しいプロジェクトを作りましょう。l名前は、「mole」としました。
 
 「Screen1」ができております。さっそく「Screen1」のプロパティから変更します。
 
-* Title 　　　　　　　「もぐらたたき」「アプリの名前になります。」
-* ScreenOrientation   「Portrait」「縦長固定のアプリにします。」
-* Scrollable 　　　　   チェックをはずす。「スクロールするような状況になっても、画面にスクロールバーが表示されず、画面がスクロールしなくなります。
+* Title 　　　　　　　「もぐらたたき」「アプリの名前になります。」
+* ScreenOrientation   「Portrait」「縦長固定のアプリにします。」
+* Scrollable 　　　　   チェックをはずす。「スクロールするような状況になっても、画面にスクロールバーが表示されず、画面がスクロールしなくなります。
 
 というわけで、ここに置くコンポーネントのHeightのFillParentがきちんと効くようになります。
 
@@ -30,8 +32,7 @@
 * 「Label1」　→Rename→　「ScoreTitle」（プロパティのTextを「Score:」に変更する。）
 * 「Label2」　→Rename→　「ScoreLabel」（プロパティのTextを「0」に変更する。）
 
-これは、点数を表示させるラベルとなります。  
-
+これは、点数を表示させるラベルとなります。
 
 見た目はこうなります。↓
 
@@ -40,15 +41,14 @@
 ### デザイナー画面を完成させます。
 
 1. 「Button」を１つ配置します。「Button1」　→Rename→　「RestartButton」（プロパティのTextを「Restart」にする。
-2. 「Canvas1」を配置します。（プロパティWidth:  Fillparent, Height: Fillparent）
+2. 「Canvas1」を配置します。（プロパティWidth:  Fillparent, Height: Fillparent）
 3. 「Canvas1」の中に「ImageSprite」を一つ入れます。「ImageSprite1」　→Rename→　「MoleImage1」（プロパティのPictureに「mole.png」を設定し、もぐらを表示します。）![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/mole.png?d=a0 "mole.png")\(mole.png\), 「MoleImage1」の配置は、Canvas内であれば、どこでもかまいません。好きなところにおいてください。
 4. 「Clock1」を配置します。Non-visible Componentとして、下に配置されます。（プロパティのTimerIntervalを500に設定します。）
 5. 「Sound1」を配置します。これも、Non-visible Componentとして、下に配置されます。（プロパティの変更はなし。） 
 
 これらが完成するとこうなります。↓
 
-![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0521-3.JPG?d=a0 "0521-3.JPG")  
-
+![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0521-3.JPG?d=a0 "0521-3.JPG")
 
 ### モグラたたきのブロックエディタその１
 
@@ -58,7 +58,6 @@
 
 ![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0522-1.JPG?d=a0 "0522-1.JPG")
 
-  
 次は、モグラをランダムに表示させるブロックを作ります。左側にあるBlocksの「Clock1」をクリックし、「When Clock1.Timer」ブロックをドラッグします。
 
 これです。↓
@@ -75,7 +74,7 @@
 
 ![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0522-3.JPG?d=a1 "0522-3.JPG")
 
-最後に「x」と「y」の部分に入れるものは、ランダムで表示させるブロック「random integer　from ① to ②」のブロックを使います。
+最後に「x」と「y」の部分に入れるものは、ランダムで表示させるブロック「random integer　from ① to ②」のブロックを使います。
 
 ![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0522-5.jpg?d=a0 "0522-5.jpg")
 
@@ -101,24 +100,21 @@
 
 １，変数「Score」の値を１増やす。
 
-![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0523-2.JPG?d=a1 "0523-2.JPG")  
-
+![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0523-2.JPG?d=a1 "0523-2.JPG")
 
 ２．変数「Score」の値を「ScoreLabel」に表示する。
 
-![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0523-3.JPG?d=a1 "0523-3.JPG")  
-
+![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0523-3.JPG?d=a1 "0523-3.JPG")
 
 ３．0.1 秒間\(100 ms\)スマートフォンを振動させる。
 
-![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0523-4.JPG?d=a1 "0523-4.JPG")  
-
+![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0523-4.JPG?d=a1 "0523-4.JPG")
 
 これらを組み合わせて完成させます。
 
 ![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0523-5.JPG?d=a2 "0523-5.JPG")
 
-###  モグラたたきのブロックエディタその３
+### モグラたたきのブロックエディタその３
 
 「Restart」ボタンを動かすブロックです。今回の「Restart」ボタンは、ただ、点数を「０」にもどすだけです。
 
@@ -132,8 +128,7 @@
 
 １．変数「Score」を「0」にします。
 
-![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0524-2.JPG?d=a1 "0524-2.JPG")  
-
+![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0524-2.JPG?d=a1 "0524-2.JPG")
 
 ２．変数「Score」の値を「ScoreLabel」に表示する。
 

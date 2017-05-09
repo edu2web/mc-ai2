@@ -2,7 +2,7 @@
 
 PaintPotはネコの顔に赤青緑の線を引いたり点をうったりでき、書いたものを消したり、点を打つ大きさを変えたり、背景の写真をカメラで撮ったりできるアプリです。
 
-**        
+**          
 **[![](http://app.edu2web.com/wp-content/uploads/2017/04/PaintPotPart1PhoneImage.png)](http://app.edu2web.com/wp-content/uploads/2017/04/PaintPotPart1PhoneImage.png)
 
 ### 簡略な手順
@@ -27,7 +27,7 @@ LayoutからHorizontalArrangementを1個持って来て、
 
 左からボタンを持って来てレイアウトの中に4個置きます。こんな感じに並べましょう
 
-最後にMediaからCameraを持って来てDesignerでの作業は終了になります。**        
+最後にMediaからCameraを持って来てDesignerでの作業は終了になります。**          
 **
 
 ![](https://lh4.googleusercontent.com/obUijJ_Hr67a49zYuzNjLNZUz8FXD8yOa0Xl0in7hnUoZbr2ZAFfB7lA2lK-XYAUw-iFA8YuI9pO8g_SRWc7yNyXB8SQ-m1yCvK0c-ONSS7GcPVZioATwJuPEOAPmiht9tCrpWZ8)
@@ -36,7 +36,7 @@ LayoutからHorizontalArrangementを1個持って来て、
 
 次はいよいよBlocksでの作業になります。右上のBlocksと書いてあるボタンを押してBlocks編集画面へ移動します。まずはなぞった部分に線を引いていく処理を作ります。左側のCanvasからwhen canvas1 .Draggedというブロックを持ってきます。その中に同じくCanvasから持ってきたcall Canvas1 .DrawLineをセットします。次に始点と終点の座標は下の図のようにセットしてください。これだけで画面に線が引けるようになりました！
 
-次はボタンを押たときに線や点の色を変更できるようにします。対象のボタンのとこからwhenなんとか .ClickBlockを持って来て、[Canvas](http://d.hatena.ne.jp/keyword/Canvas)から色をセットするブロックを、色は左のColorsから持ってきましょう。
+次はボタンを押たときに線や点の色を変更できるようにします。対象のボタンのとこからwhenなんとか .ClickBlockを持って来て、Canvasから色をセットするブロックを、色は左のColorsから持ってきましょう。
 
 ![](https://lh4.googleusercontent.com/8Pc7gfihKw0IH2wfuYtyMl9U0pXXXtuPyymwkqVOZPIZIp4bCBvX53mL_pbXyGimyjXbZkoMaHSeseXYBJPYgZTTPyA5FEdHVUuhhzYqh2fL6MR_qqExx1dDf-SW3FTBPzTDnbrF)
 
@@ -44,14 +44,14 @@ LayoutからHorizontalArrangementを1個持って来て、
 
 ![](http://cdn-ak.f.st-hatena.com/images/fotolife/s/shunXnegi/20141226/20141226174814.png "f:id:shunXnegi:20141226174814p:plain")
 
-次にタッチしたところに点を打てるようにします。…って言ってもやることはさっきとほとんど一緒です。こんな感じ。点の大きさはMathのとこから数字を持って来て、とりあえず5をセットしました。**        
+次にタッチしたところに点を打てるようにします。…って言ってもやることはさっきとほとんど一緒です。こんな感じ。点の大きさはMathのとこから数字を持って来て、とりあえず5をセットしました。**          
 **
 
 ![](https://lh4.googleusercontent.com/KuTyp43SJA8P_mua8KDYK3k056YK_gBJbe--3kDoaG39DyWrJCfrGyqR1Dxf_C2FAKJ1GZjFHmXynJPvdafRZjuO7Hsk54NVuZmZyJLsf20Lj9GMh2qNLsvjXU1JA1-S1tAI8f7_)
 
 最後にカメラを使えるようにしましょう。といってもMIT AI2ではカメラ画面をそのまま使えるわけではなく、端末のカメラアプリを起動して、戻り値としてカメラの画像を受け取ることになります。Cameraからcall Camera1.TakePictureを持って来て、カメラで写真をとったらCanvasの背景に設定するようにします。
 
-![](https://lh6.googleusercontent.com/K6TZ_XFpLbB0iQnrXwK4NpYmYuLdKaB91DTubphzW5KNuHdtXhtnEk0jBj3IDh25THYZ0zY3xg5kJSzd1ZYNTiB7MZ-lr2p4ttswvAF8UE7vybpNIzWHfxVllmGPns1skt3X5jcJ)
+![](/assets/takepic.png)
 
 これでPaintPotは完成です！
 
