@@ -9,7 +9,7 @@
 | Canvas | Drawing and Animation | Canvas1 | ImageSpriteのコンテナ |
 |  ImageSprite | Drawing and Animation | Mole |  タッチ目标 |
 | Button | User Interface | ResetButton | スコアリセット |
-| Clock | User Interface | Clock1 | 移動速度 |
+| Clock | Sensors | Clock1 | 移動速度 |
 | Sound | Media | Sound1 | 的中された際振動 |
 | Label | User Interface | HitsLabel | 的中と表示 |
 | Label | User Interface | HitsCountLabel | 的中数の表示 |
