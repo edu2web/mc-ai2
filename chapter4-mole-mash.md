@@ -7,7 +7,7 @@
 | コンポーネント | パレット | 命名 | 用途 |
 | :--- | :--- | :--- | :--- |
 | Canvas | Drawing and Animation | Canvas1 | ImageSpriteのコンテナ |
-|  ImageSprite | Drawing and Animation | Mole |  タッチ目标 |
+| ImageSprite | Drawing and Animation | Mole | タッチ目标 |
 | Button | User Interface | ResetButton | スコアリセット |
 | Clock | Sensors | Clock1 | 移動速度 |
 | Sound | Media | Sound1 | 的中された際振動 |
@@ -64,7 +64,7 @@
 
 これらが完成するとこうなります。↓
 
-![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0521-3.JPG?d=a0 "0521-3.JPG")
+![](/assets/mole1.png)
 
 ### モグラたたきのブロックエディタその１
 
@@ -155,6 +155,10 @@
 全部一緒にするとこんな感じです。↓
 
 ![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0524-3.JPG?d=a0 "0524-3.JPG")
+
+
+
+
 
 MITでのサンプルはここで終わりです。ここから先は、自分で工夫してみます。
 
