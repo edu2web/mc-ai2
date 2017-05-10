@@ -45,16 +45,12 @@
 後で、ブロックエディタでプログラミングするときに、分からなくならないように「Components」を「Rename」します。
 
 * 「HorizontalArrangement」　→Rename→　「ScoreArrangement」
-* 「Label1」　→Rename→　「ScoreTitle」（プロパティのTextを「Score:」に変更する。）
-* 「Label2」　→Rename→　「ScoreLabel」（プロパティのTextを「0」に変更する。）
+* 「Label1」　→Rename→　「HitsLabel」（プロパティのTextを「Hits:」に変更する。）
+* 「Label2」　→Rename→　「HitsCountLabel」（プロパティのTextを「0」に変更する。）
 
 これは、点数を表示させるラベルとなります。
 
-見た目はこうなります。↓
-
-![](http://netandapri.up.n.seesaa.net/netandapri/mole_mash/0521-2.JPG?d=a1 "0521-2.JPG")
-
-### デザイナー画面を完成させます。
+デザイナー画面を完成させます。
 
 1. 「Button」を１つ配置します。「Button1」　→Rename→　「RestartButton」（プロパティのTextを「Restart」にする。
 2. 「Canvas1」を配置します。（プロパティWidth:  Fillparent, Height: Fillparent）
