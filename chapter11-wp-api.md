@@ -1,11 +1,11 @@
 # **第11章　Web API \(WordPress\)**
 
-**  
+**  24. Webと通信  
 **
 
 **WordPressは人気のCMSであり、サーバセキュリティ、パフォーマンスチューニング、スケールアップ、クラウド対応など沢山ノウハウが蓄積された。WordPressに API機能を追加して、クライドとして利用する方法を試み。**
 
-**  
+**    
 **
 
 **AppInventorはAndroidのApp作りに簡単な環境です。WordPressをWebコンテンツを作るに最適な環境。**
@@ -55,19 +55,17 @@
 
 * [**http://ja.wordpress.org/**](http://ja.wordpress.org/)
 
-
-
 ### **ファイルの配置**
 
 **ダウンロードしたファイルは圧縮ファイルとなっています。解凍した上で使用するWebサーバへ配置します。配置したファイルはインターネット経由でアクセスできる位置に配置して下さい。WebサーバとしてApacheを使用しているのであればドキュメントルートの直下、または任意のディレクトリを作成して配置して下さい。**
 
 **ダウンロードしたファイルは元々「wordpress」というディレクトリの中にファイルが含まれていましたので、今回はローカルで動作させているApacheのドキュメントルートの下にそのまま解凍して配置しました。**
 
-**今回のように「wordpress」と言うディレクトリの中にWordPressで使用するファイルを格納すると、作成したブログのURLは「http://localhost/wordpress/」のような形式となります。**
+**今回のように「wordpress」と言うディレクトリの中にWordPressで使用するファイルを格納すると、作成したブログのURLは「**[http://localhost/wordpress/」のような形式となります。](http://localhost/wordpress/」のような形式となります。)
 
 ### **WordPressのインストール**
 
-**ブラウザで「http://localhost/wordpress/」へアクセスして下さい\(URLはWordPressのファイルを配置したWebサーバのURLやディレクトリに合わせて変更して下さい\)。**
+**ブラウザで「**[http://localhost/wordpress/」へアクセスして下さい\(URLはWordPressのファイルを配置したWebサーバのURLやディレクトリに合わせて変更して下さい\)。](http://localhost/wordpress/」へアクセスして下さい%28URLはWordPressのファイルを配置したWebサーバのURLやディレクトリに合わせて変更して下さい%29。)
 
 **この際画面の指示に従って、インストール環境整備で作成したWordPress 用データベースとユーザ名など入力する**
 
@@ -92,7 +90,7 @@
 
 **2. Activate the plugin on the “Plugins” tab of the administration panel.**
 
-**  
+**    
 **
 
 **Postman を使ってAPIの動作確認**

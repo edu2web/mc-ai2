@@ -1,5 +1,7 @@
 # **第4章　アニメーション\(Mole Mash\)**
 
+\(Chapter 3. MoleMash\)
+
 **Mole Mashは、**ゲームセンターによくあるもので、画面のデザイン、Campas部品、さらにImageSprite使い方が学べます。
 
 ### ![](/assets/molemash.png)

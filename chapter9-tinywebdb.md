@@ -1,4 +1,8 @@
-# **第10章　ストレージ\(2\) ネットワーク通信 \(TinyWebDB\)**
+# **第10章　ストレージ\(2\) ネットワーク通信 **
+
+TinyWebDB
+
+\(Chapter 10. MakeQuiz and TakeQuiz\)
 
 **App Inventor中有两种方式可以连接到网络：**
 
