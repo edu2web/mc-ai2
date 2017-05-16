@@ -1,8 +1,4 @@
-# **第7章　センサー\(2\) バーコード**
+# **第10章　Amazon API**
 
 \(Chapter 13. Amazon Bookstore\)
-
-
-
-
 
