@@ -37,6 +37,12 @@ Application Management
 
 ### **Twitter　発信**
 
+![](/assets/twitter1.png)
+
+![](/assets/twitter2.png)
+
+
+
 ### **Twitter　写真投稿**
 
 ### **Twitter 読み上げ？**
