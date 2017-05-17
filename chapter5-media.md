@@ -2,7 +2,7 @@
 
 \(Chapter 4. No Texting While Driving\) -- 運転中チャット（Texting）しない
 
-内容はショットメッセージ受信してたら、電話番号とメッセージの音声の読み上げ、自動返信です。 
+内容はショットメッセージ受信してたら、電話番号とメッセージの音声の読み上げ、自動返信です。
 
 日本では、ショットメッセージあまり普及しないので、内容は**Twitter 読み上げ？にアレンジする。**
 
@@ -12,7 +12,7 @@
 
 Twitterは、140文字以内の短文「ツイート」の投稿を共有するウェブ上の情報サービスである。
 
-https://twitter.com/
+[https://twitter.com/](https://twitter.com/)
 
 Twitterへようこそ. 「いま」起きていることを見つけよう。国内のニュースから身近なできごとまで、みんなの話題がわかる。
 
@@ -33,7 +33,7 @@ Twitter App申請
 
 Application Management
 
-https://apps.twitter.com/
+[https://apps.twitter.com/](https://apps.twitter.com/)
 
 ### **Twitter　発信**
 
