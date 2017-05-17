@@ -39,9 +39,7 @@ Application Management
 
 ![](/assets/twitter1.png)
 
-![](/assets/twitter2.png)
-
-
+![](/assets/twitter3.png)
 
 ### **Twitter　写真投稿**
 
