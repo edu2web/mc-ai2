@@ -14,8 +14,6 @@
 
 [https://www.youtube.com/watch?v=5404RBvbvfA](https://www.youtube.com/watch?v=5404RBvbvfA)
 
-
-
 ### **Twitter とは**
 
 Twitterは、140文字以内の短文「ツイート」の投稿を共有するウェブ上の情報サービスである。
@@ -42,6 +40,14 @@ Twitterアプリを作る場合は「Twitter」の「Properties」にある「Co
 Application Management
 
 [https://apps.twitter.com/](https://apps.twitter.com/)
+
+申請する際、必須項目は赤い✴️　と表示、しかしCall back URL は必須ではないですが、入れないとアプリで「連携アプリの認証」画面出ないので、必ず入力すること。
+
+
+
+![](/assets/IMG_8818.JPG)
+
+### 
 
 ### **Twitter　発信**
 
