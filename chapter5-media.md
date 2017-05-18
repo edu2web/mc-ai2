@@ -4,9 +4,9 @@
 
 内容はショットメッセージ受信してたら、電話番号とメッセージの音声の読み上げ、自動返信です。
 
-日本では、ショットメッセージあまり普及しないので、実験用スマートフォンは回線契約もないので、実験は困難。
+日本では、ショットメッセージあまり普及しないので、このコース実験用スマートフォンは回線契約もないので、実施は困難。
 
-そこで、日本人の間流行っている**Twitterの発信、受信（ 読み上げ？）にアレンジする。**
+そこで、内容は日本人の間流行っている**Twitterの発信、受信（ 読み上げ？）にアレンジする。**
 
 これをベースに、音声の読み上げ \(発音テスト？\)、翻訳ツールの作成、IoTのセンサー情報の公開も考えられます。
 
@@ -26,9 +26,6 @@ Twitterへようこそ. 「いま」起きていることを見つけよう。�
 
 Twitterアプリを作る場合は「Twitter」の「Properties」にある「ConsumerKey」と「ConsumerSecret」が必要になります。これはTwitterアプリの製造者番号のようなので、アプリ単位にTwitterに申請をするともらえます。
 
-* ConsumerKey
-* ConsumerSecret
-
 番号を取得するためにはTwitterアカウントを持っていてログイン出来ていることが前提条件になります。またアプリ製作者はモバイル登録されていることが条件になっています。**携帯電話の番号**を事前に登録しておきます。
 
 #### Twitter App申請
@@ -37,23 +34,32 @@ Twitterアプリを作る場合は「Twitter」の「Properties」にある「Co
 
 必要事項を入力して登録が完了すれば「Keys and Access Tokens」から「Consumer Key \(API Key\)」「Consumer Secret \(API Secret\)」がすぐにもらえます。
 
+* ConsumerKey
+
+* ConsumerSecret
+
 Application Management
 
 [https://apps.twitter.com/](https://apps.twitter.com/)
 
 申請する際、必須項目は赤い✴️　と表示、しかしCall back URL は必須ではないですが、入れないとアプリで「連携アプリの認証」画面出ないので、必ず入力すること。
 
-
-
-![](/assets/IMG_8818.JPG)
-
-### 
-
 ### **Twitter　発信**
 
 ![](/assets/twitter1.png)
 
 ![](/assets/twitter3.png)
+
+#### Appのテスト
+
+Appの初期化する際、Twitterの認証を行う。
+
+利用者のTwitterアカウント情報（Id / Pw）でログインしてください。
+
+![](blob:file:///7d8427f1-7d9b-4e01-8f16-a036d61c2714)
+
+  
+
 
 ### **Twitter　写真投稿**
 
