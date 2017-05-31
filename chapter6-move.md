@@ -26,7 +26,7 @@
 
 まずは、新しいプロジェクトを作りましょう。名前は、「Ladybug」としました。
 
-[![](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2017-05-24-03.03.55.png?resize=474%2C411&ssl=1)](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2017-05-24-03.03.55.png?ssl=1)
+[![](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/スクリーンショット-2017-05-24-03.03.55.png?resize=474%2C411&ssl=1)](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/スクリーンショット-2017-05-24-03.03.55.png?ssl=1)
 
 ### ブロックエディタ
 
@@ -37,10 +37,14 @@
 * 餓死
 * 再生
 
+[![](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image_thumb-4.png?resize=474%2C365&ssl=1 "image")](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image-4.png?ssl=1)
+
 #### アブラ虫
 
 * 食べられ
 * 再生
+
+[![](https://i2.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image_thumb-3.png?resize=474%2C365&ssl=1 "image")](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image-3.png?ssl=1)
 
 #### 再スタート
 
@@ -49,15 +53,23 @@
 * 運動
 * 食べる
 
+[![](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image_thumb-5.png?resize=474%2C365&ssl=1 "image")](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image-5.png?ssl=1)
+
 ### リソース
 
-* [frog.png](http://app.edu2web.com/ai2cn/files/2015/11/frog.png)
-* [ladybug.png](http://app.edu2web.com/ai2cn/files/2015/11/ladybug.png)
-* [deadladybug.png](http://app.edu2web.com/ai2cn/files/2015/11/deadladybug.png)
-* [aphid.png](http://app.edu2web.com/ai2cn/files/2015/11/aphid.png)
-* [frog.wav](http://web.17coding.net/download/5/frog.wav)
+* [frog.png](https://edu2web.com/2017/05/mobile-computing-6-ladybug-chase/#)
+* [ladybug.png](https://edu2web.com/2017/05/mobile-computing-6-ladybug-chase/#)
+* [deadladybug.png](https://edu2web.com/2017/05/mobile-computing-6-ladybug-chase/#)
+* [aphid.png](https://edu2web.com/2017/05/mobile-computing-6-ladybug-chase/#)
+* [frog.wav](https://edu2web.com/2017/05/mobile-computing-6-ladybug-chase/#)
 
 
+
+#### OrientationSensorがないの対策
+
+OrientationSensorがない場合、AccelerometerSensorで代用可能。下記のコードを変えてください。
+
+[![](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image_thumb-6.png?resize=474%2C365&ssl=1 "image")](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image-6.png?ssl=1)
 
 
 
