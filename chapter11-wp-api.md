@@ -1,4 +1,4 @@
-# **第11章　Web API \(WordPress\)**
+# **第11章　Web API \(WordPress TinyWebDB API\)**
 
 **  24. Webと通信  
 **
