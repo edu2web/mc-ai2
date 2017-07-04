@@ -1,10 +1,8 @@
-# 
-
 # **第11章　Web API \(WordPress TinyWebDB API\)**
 
 **WordPressは人気のCMSであり、サーバセキュリティ、パフォーマンスチューニング、スケールアップ、クラウド対応など沢山ノウハウが蓄積された。WordPressに API機能を追加して、クライドとして利用する方法を試み。**
 
-### **     **WordPressとApp Inventorの連携
+### WordPressとApp Inventorの連携
 
 App InventorはAndroidのApp作りに簡単な環境である。そのTinyWebDBコンポーネントは、TinyDBのWeb版といったものです。タグをつけてメッセージをサーバーに保存したり、サーバーにタグ名を送信してその値を受け取ったりすることができます。あらかじめTinyWebDBにあわせてサーバー側にプログラムを用意し、そこにアクセスする形で処理を用意しなければいけません。
 
@@ -49,15 +47,31 @@ WP-TinyWebDB-APIは、両者の長所を連携し、WordPressをAppInventorのTi
 
 ### データの取得
 
-[http://tinywebdb.ai2.work/api/getvalue/](http://tinywebdb.ai2.work/api/storeavalue/)
+[http://tinywebdb.ai2.work/api/getvalue/](http://tinywebdb.ai2.work/api/getvalue/)
 
 [http://tinywebdb.ai2.work/api/getvalue/?tag=questionsChenLab](http://tinywebdb.ai2.work/api/getvalue/?tag=questionsChenLab)
+
+[![](https://i2.wp.com/edu2web.com/wp-content/uploads/2017/07/image_thumb.png?resize=474%2C235&ssl=1 "image")](https://i1.wp.com/edu2web.com/wp-content/uploads/2017/07/image.png?ssl=1)
+
+ブラウザから取得したデータは、少々見にくい。PostmanというChrome の拡張を使うと、便利。認証、パラメタ引き渡しもできる。
+
+[![](https://i1.wp.com/edu2web.com/wp-content/uploads/2017/07/image_thumb-1.png?resize=474%2C252&ssl=1 "image")](https://i1.wp.com/edu2web.com/wp-content/uploads/2017/07/image-1.png?ssl=1)
 
 ### データの送信
 
 [http://tinywebdb.ai2.work/api/storeavalue/](http://tinywebdb.ai2.work/api/storeavalue/)
 
 ### **Webデータベースのアプリで検証**
+
+第9章のアプリから、上記のAPIへアクセスして見た。
+
+問題なく、問題が保存できる。
+
+### [![](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image_thumb-9.png?resize=242%2C484&ssl=1 "image")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image-9.png?ssl=1)
+
+ブラウザーからも、保存したデータの確認できる。
+
+[![](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image_thumb-8.png?resize=474%2C499&ssl=1 "image")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image-8.png?ssl=1)
 
 
 
