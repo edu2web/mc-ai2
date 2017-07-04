@@ -1,97 +1,70 @@
 # **第11章　Web API \(WordPress TinyWebDB API\)**
 
-**  24. Webと通信  
+**  24. Webと通信    
 **
 
 **WordPressは人気のCMSであり、サーバセキュリティ、パフォーマンスチューニング、スケールアップ、クラウド対応など沢山ノウハウが蓄積された。WordPressに API機能を追加して、クライドとして利用する方法を試み。**
 
-**    
-**
+### **     **WordPressとApp Inventorの連携
 
-**AppInventorはAndroidのApp作りに簡単な環境です。WordPressをWebコンテンツを作るに最適な環境。**
+App InventorはAndroidのApp作りに簡単な環境である。そのTinyWebDBコンポーネントは、TinyDBのWeb版といったものです。タグをつけてメッセージをサーバーに保存したり、サーバーにタグ名を送信してその値を受け取ったりすることができます。あらかじめTinyWebDBにあわせてサーバー側にプログラムを用意し、そこにアクセスする形で処理を用意しなければいけません。
 
-**WP-TinyWebDB-APIは、両者の長所を連携し、WordPressをAppInventorのTinyWebDBサービスとして利用するためのAPIを、WordPressのプラグインとして提供したもの。**
+WordPressは人気のCMSであり、サーバセキュリティ、パフォーマンスチューニング、スケールアップ、クラウド対応など沢山ノウハウが蓄積された。WordPressをWebコンテンツを作るに最適な環境。WordPressサイトは、App InventorのTinyWebDBサービスとして利用できるか？
 
-**本章は、まずWordPressのダウンロード方法及びインストール手順について簡単なリストし、それからWP-TinyWebDB-APIのインストール、Postman を使ってAPIの動作確認を行う。**
+[![](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image_thumb-5.png?resize=474%2C401&ssl=1 "image")](https://i2.wp.com/edu2web.com/wp-content/uploads/2017/06/image-5.png?ssl=1)
 
-#### **WordPressのインストール環境整備**
+答えはYes.
 
-**WordPress 日本語版の推奨動作環境**
+### **WordPress に TinyWebDB API**
 
-* [**PHP**](http://www.php.net/)**バージョン 5.6 以上**
+WordPressに API機能を追加して、クライドとして利用する方法を試み。
 
-* [**MySQL**](http://www.mysql.com/)**バージョン 5.6 以上 または**[**MariaDB**](https://mariadb.org/)**バージョン 10.0 以上**
+WP-TinyWebDB-APIは、両者の長所を連携し、WordPressをAppInventorのTinyWebDBサービスとして利用するためのAPIを、WordPressのプラグインとして提供したもの。
 
-**古い PHP や MySQL しか利用できないレガシーな環境でも、PHP 5.2.4 以上、かつ MySQL 5.0 以上であれば WordPress は動作しますが、公式サポートは終了しており、サイトがセキュリティの脆弱性にさらされる危険があります。**
+本章は、WP-TinyWebDB-APIのインストール、Postman を使ってAPIの動作確認, そして第９章のWebデータベースに応用する検証を行う。
 
-**テスト用、自宅サーバー用などにローカル環境を構築する際に参考になるリンクです。ローカルマシン上に PHP、Apache、MySQL の環境設定が必要です。**
-
-**もしホスティング提供者 \(レンタルサーバー\) を使っているなら、すでに WordPress 用に設定されたデータベースや簡単インストール用のツールが用意されているかもしれません。ホスティング提供者 \(レンタルサーバー業者\) のサポートページや管理画面で、手動でインストールする必要があるかどうかよく調べてみて下さい。**
-
-**下記のいずれのケースに推奨動作環境を用意してください。**
-
-* **ローカル環境へのインストール（Windows）**
-
-* **ローカル環境へのインストール（Mac の OS X ）**
-
-* **ローカル環境へのインストール（Linux系列）**
-
-* **ホスティング提供者 \(レンタルサーバー\) へのインストール**
-
-**それに合わせて、WordPress 用データベースとユーザを作成**
-
-**例：**
-
-**データベース名 : wpdb  
-ユーザー名 : wpadmin  
-パスワード : password  
-ホスト名 : localhost**
-
-**上記情報メモして、WordPressのインストール際使う。**
-
-### **WordPressのダウンロード**
-
-**WordPressのダウンロードから行います。次のURLから開始します。**
-
-* [**http://ja.wordpress.org/**](http://ja.wordpress.org/)
-
-### **ファイルの配置**
-
-**ダウンロードしたファイルは圧縮ファイルとなっています。解凍した上で使用するWebサーバへ配置します。配置したファイルはインターネット経由でアクセスできる位置に配置して下さい。WebサーバとしてApacheを使用しているのであればドキュメントルートの直下、または任意のディレクトリを作成して配置して下さい。**
-
-**ダウンロードしたファイルは元々「wordpress」というディレクトリの中にファイルが含まれていましたので、今回はローカルで動作させているApacheのドキュメントルートの下にそのまま解凍して配置しました。**
-
-**今回のように「wordpress」と言うディレクトリの中にWordPressで使用するファイルを格納すると、作成したブログのURLは「**[http://localhost/wordpress/」のような形式となります。](http://localhost/wordpress/」のような形式となります。)
-
-### **WordPressのインストール**
-
-**ブラウザで「**[http://localhost/wordpress/」へアクセスして下さい\(URLはWordPressのファイルを配置したWebサーバのURLやディレクトリに合わせて変更して下さい\)。](http://localhost/wordpress/」へアクセスして下さい%28URLはWordPressのファイルを配置したWebサーバのURLやディレクトリに合わせて変更して下さい%29。)
-
-**この際画面の指示に従って、インストール環境整備で作成したWordPress 用データベースとユーザ名など入力する**
-
-**例：**
-
-**データベース名 : wpdb  
-ユーザー名 : wpadmin  
-パスワード : password  
-ホスト名 : localhost**
-
-**これで WordPress はインストールされたはずです。**
+#### 
 
 ## **WP-TinyWebDB-APIのインストール**
 
-**公式サイトをy利用する**
+公式サイトを利用する
 
-**1. FTPツールでtinywebdb-api ディレクトリー全体を WordPress の pluginsフォルダーにコピーして下さい\(/wp-content/plugins/\).**
+1. FTPツールでtinywebdb-api ディレクトリー全体を WordPress の pluginsフォルダーにコピーして下さい\(/wp-content/plugins/\).
 
-**1. FTP the entire tinywebdb-api directory to your WordPress blog’s plugins folder \(/wp-content/plugins/\).**
+1. FTP the entire tinywebdb-api directory to your WordPress blog’s plugins folder \(/wp-content/plugins/\).
 
-**2. 管理パネルの「Plugins」タブ上のpluginを有効化してください。**
+2. 管理パネルの「Plugins」タブ上のpluginを有効化してください。
 
-**2. Activate the plugin on the “Plugins” tab of the administration panel.**
-
-**    
+2. Activate the plugin on the “Plugins” tab of the administration panel.**  
 **
 
-**Postman を使ってAPIの動作確認**
+### **Postman を使ってAPIの動作確認**
+
+
+
+
+
+
+
+### **Webデータベースのアプリで検証**
+
+これは普通のWordPressのサイトに見える
+
+[http://tinywebdb.ai2.work/](http://tinywebdb.ai2.work/)
+
+追加したAPI機能をみる。\(これをServiceURLにセットする\)
+
+[**http://tinywebdb.ai2.work/api**](http://tinywebdb.ai2.work/api)
+
+### データの取得
+
+[http://tinywebdb.ai2.work/api/getvalue/](http://tinywebdb.ai2.work/api/storeavalue/)
+
+[http://tinywebdb.ai2.work/api/getvalue/?tag=questionsChenLab](http://tinywebdb.ai2.work/api/getvalue/?tag=questionsChenLab)
+
+### データの送信
+
+[http://tinywebdb.ai2.work/api/storeavalue/](http://tinywebdb.ai2.work/api/storeavalue/)
+
+[![](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image_thumb-8.png?resize=474%2C499&ssl=1 "image")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image-8.png?ssl=1)
 
