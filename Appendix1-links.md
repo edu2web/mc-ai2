@@ -1,6 +1,6 @@
 # **付録1 関連情報**
 
-**      
+**        
 **
 
 **参考\(英文\)**
@@ -12,6 +12,8 @@
 * [**http://appinventor.mit.edu/test/**](http://appinventor.mit.edu/test/)**　（設定テストURL）**
 
 * [http://www.appinventor.org/content/CourseInABox/Intro/courseinabox](http://www.appinventor.org/content/CourseInABox/Intro/courseinabox) -- The App Inventor Course-in-a-Box
+
+* [https://course.mobilecsp.org/mobilecsp/course](https://course.mobilecsp.org/mobilecsp/course) -- Mobile Computer Science Principles course
 
 参考（日本語）
 
@@ -25,6 +27,6 @@
 
 * **Package Android APKs for ARC \(App Runtime for Chrome\)　\(Chromeで動く、デバッグ\)**
 
-**      
+**        
 **
 
