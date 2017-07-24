@@ -11,6 +11,7 @@
 * [第8章　Webデータベース](chapter8-tinywebdb.md)
 * [第9章　Amazon API](chapter9-amazon-api.md)
 * [第10章　WordPress API](chapter10-wp-api.md)
-* [付録1 関連](Appendix1-links.md)
+* [付録1 関連情報](Appendix1-links.md)
 * [付録2 セットアップ](Appendix2-setup.md)
 * [付録3 アプリの公開](Appendix3-publish.md)
+

@@ -1,4 +1,4 @@
-# **第10章　Amazon API**
+# **第9章　Amazon API**
 
 \(Chapter 13. Amazon Bookstore\)
 
@@ -14,9 +14,6 @@
 
 [![](https://i2.wp.com/edu2web.com/wp-content/uploads/2017/07/image_thumb-3.png?resize=474%2C372&ssl=1 "image")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/07/image-3.png?ssl=1)
 
-
-
-  
 デザイン
 
 [![](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/07/image_thumb-4.png?resize=474%2C417&ssl=1 "image")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/07/image-4.png?ssl=1)
@@ -31,12 +28,11 @@ BarcodeScannerは非表示部品です。この部品を使ってバーコード
 
 撮影はバーコード撮影用の別バーコードを読み取るアプリが起動します。そのためアプリを動かす端末に「ZXing」のようなバーコードを読み取るライブラリが必要です（マーケットから無料でダウンロード可能）。
 
-[  
+[    
 ](https://edu2web.com/wp-content/uploads/2017/07/qr_9781491906842.png)
 
 [![](https://i1.wp.com/edu2web.com/wp-content/uploads/2017/07/image_thumb-5.png?resize=474%2C248&ssl=1 "image")](https://i2.wp.com/edu2web.com/wp-content/uploads/2017/07/image-5.png?ssl=1)
 
-  
 Amazon API検索
 
 このAmazon APIは、TinyWebDBのAPIを利用して、図書の検索を行う。「tag」を送信して、「value」を取得する代わりに、検索ワードを送り、検索結果を受け取り。
@@ -50,8 +46,4 @@ Amazon API検索
 [![](https://i2.wp.com/edu2web.com/wp-content/uploads/2017/07/isbn_9781491906842_thumb.png?resize=249%2C152&ssl=1 "isbn\_9781491906842")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/07/isbn_9781491906842.png?ssl=1)[![](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/07/qr_9781491906842_thumb.png?resize=154%2C154&ssl=1 "qr\_9781491906842")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/07/qr_9781491906842-1.png?ssl=1)
 
 ISBN番号9781491906842の本のバーコード
-
-
-
-
 

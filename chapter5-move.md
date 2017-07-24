@@ -1,4 +1,4 @@
-# **第6章　センサー\(1\) 加速度センサー**
+# **第5章　加速度センサー**
 
 \(chapter 5. Ladybug Chase\)
 
@@ -63,13 +63,9 @@
 * [aphid.png](https://edu2web.com/2017/05/mobile-computing-6-ladybug-chase/#)
 * [frog.wav](https://edu2web.com/2017/05/mobile-computing-6-ladybug-chase/#)
 
-
-
 #### OrientationSensorがないの対策
 
 OrientationSensorがない場合、AccelerometerSensorで代用可能。下記のコードを変えてください。
 
 [![](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image_thumb-6.png?resize=474%2C365&ssl=1 "image")](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/05/image-6.png?ssl=1)
-
-
 

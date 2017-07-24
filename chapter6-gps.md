@@ -1,4 +1,4 @@
-# **第7章　位置情報**
+# **第6章　位置情報**
 
 \(Chapter 6. Map Tour\)
 
@@ -17,7 +17,7 @@ Tokyo Map Tourでは、Android端末に用意されているGoogle Mapのアプ�
 
 [![](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/06/image_thumb-5.png?resize=242%2C484&ssl=1 "image")](https://i2.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/06/image-5.png?ssl=1)
 
-[  
+[    
 ](https://edu2web.com/wordpress/wp-content/uploads/2017/06/image-1.png)
 
 \[Choose Destination\]のボタンを押すと、東京の観光地のリストが表示されます。
@@ -42,8 +42,6 @@ Tokyo Map Tourでは、Android端末に用意されているGoogle Mapのアプ�
 
 [![](https://i2.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/06/image_thumb-3.png?resize=474%2C402&ssl=1 "image")](https://i0.wp.com/edu2web.com/wordpress/wp-content/uploads/2017/06/image-1.png?ssl=1)
 
-
-
 使用するコンポーネントは、Image、ListPicker、ActiveStarterです。
 
 _Table 6-1. Components for the Paris Map Tour_
@@ -57,7 +55,7 @@ _Table 6-1. Components for the Paris Map Tour_
 
 Imageに、最初の画面で表示する地図の画像を設定します。
 
-[https://maps.googleapis.com/maps/api/staticmap?center=35.6585805,%20139.7432442%20&zoom=15&size=300×300&maptype=roadmap&markers=color:blue%7Clabel:T%7C35.6585805,%20139.7432442](https://maps.googleapis.com/maps/api/staticmap?center=35.6585805,%20139.7432442%20&zoom=15&size=300x300&maptype=roadmap&markers=color:blue%7Clabel:T%7C35.6585805,%20139.7432442)
+[https://maps.googleapis.com/maps/api/staticmap?center=35.6585805,%20139.7432442%20&zoom=15&size=300×300&maptype=roadmap&markers=color:blue%7Clabel:T%7C35.6585805,%20139.7432442](https://maps.googleapis.com/maps/api/staticmap?center=35.6585805, 139.7432442 &zoom=15&size=300x300&maptype=roadmap&markers=color:blue|label:T|35.6585805, 139.7432442)
 
 ListPickerは、テキストデータのリストから一つのデータを選択するためのコンポーネントです。  
 観光地のリストを入れておくためのものです。  

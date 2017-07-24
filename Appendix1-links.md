@@ -1,6 +1,6 @@
-# **付録**
+# **付録1 関連情報**
 
-**    
+**      
 **
 
 **参考\(英文\)**
@@ -13,15 +13,9 @@
 
 * [http://www.appinventor.org/content/CourseInABox/Intro/courseinabox](http://www.appinventor.org/content/CourseInABox/Intro/courseinabox) -- The App Inventor Course-in-a-Box
 
-
-
 参考（日本語）
 
 * [**http://www.itmedia.co.jp/enterprise/articles/1206/12/news003.html**](#)
-
-
-
-
 
 **ツール**
 
@@ -31,6 +25,6 @@
 
 * **Package Android APKs for ARC \(App Runtime for Chrome\)　\(Chromeで動く、デバッグ\)**
 
-**    
+**      
 **
 

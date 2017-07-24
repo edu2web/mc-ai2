@@ -1,4 +1,4 @@
-# **第11章　Web API \(WordPress TinyWebDB API\)**
+# **第10章　Web API \(WordPress TinyWebDB API\)**
 
 **WordPressは人気のCMSであり、サーバセキュリティ、パフォーマンスチューニング、スケールアップ、クラウド対応など沢山ノウハウが蓄積された。WordPressに API機能を追加して、クライドとして利用する方法を試み。**
 
@@ -32,7 +32,7 @@ WP-TinyWebDB-APIは、両者の長所を連携し、WordPressをAppInventorのTi
 
 3. 管理パネルの「Plugins」タブ上のpluginを有効化してください。
 
-4. Activate the plugin on the “Plugins” tab of the administration panel.**        
+4. Activate the plugin on the “Plugins” tab of the administration panel.**          
    **
 
 ### **Postman を使ってAPIの動作確認**
@@ -72,6 +72,4 @@ WP-TinyWebDB-APIは、両者の長所を連携し、WordPressをAppInventorのTi
 ブラウザーからも、保存したデータの確認できる。
 
 [![](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image_thumb-8.png?resize=474%2C499&ssl=1 "image")](https://i0.wp.com/edu2web.com/wp-content/uploads/2017/06/image-8.png?ssl=1)
-
-
 

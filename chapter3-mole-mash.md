@@ -1,4 +1,4 @@
-# **第4章　アニメーション\(Mole Mash\)**
+# **第3章　アニメーション\(Mole Mash\)**
 
 \(Chapter 3. MoleMash\)
 

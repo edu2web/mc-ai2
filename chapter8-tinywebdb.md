@@ -1,14 +1,12 @@
-# \*\* 第９章　Web データベース \*\*
+# \*\* 第8章　Web データベース \*\*
 
 TinyWebDB
 
 \(Chapter 10. MakeQuiz and TakeQuiz\)
 
- Chapter 8 に、TinyDBを使って簡単なメッセージを保存する処理を作成しました。
+Chapter 8 に、TinyDBを使って簡単なメッセージを保存する処理を作成しました。
 
- Androidでは、ネットワーク経由でサーバーにアクセスするアプリが多数あります。Androidのシステムにネットワーク通信のための機能が備わっており、それを利用して非常に簡単にサーバーとやり取りするアプリを作れるのです。
-
-
+Androidでは、ネットワーク経由でサーバーにアクセスするアプリが多数あります。Androidのシステムにネットワーク通信のための機能が備わっており、それを利用して非常に簡単にサーバーとやり取りするアプリを作れるのです。
 
 App Inventorでも、サーバーとやり取りするアプリを作ることができます。これは「TinyWebDB」という部品として用意されています。
 
@@ -54,26 +52,26 @@ Components:
 
 Make Quiz:
 
-[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742382446/app-inventor/make-quiz-take-quiz/MakeQuiz%20Comps.PNG?w=474&ssl=1 "Make Quiz Components")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/MakeQuiz%20Comps.PNG?attredirects=0)
+[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742382446/app-inventor/make-quiz-take-quiz/MakeQuiz Comps.PNG?w=474&ssl=1 "Make Quiz Components")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/MakeQuiz Comps.PNG?attredirects=0)
 
 Take Quiz:
 
-[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742381880/app-inventor/make-quiz-take-quiz/Take%20Quiz%20Comps.PNG?w=474&ssl=1 "Take Quiz Comps")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/Take%20Quiz%20Comps.PNG?attredirects=0)
+[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742381880/app-inventor/make-quiz-take-quiz/Take Quiz Comps.PNG?w=474&ssl=1 "Take Quiz Comps")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/Take Quiz Comps.PNG?attredirects=0)
 
 Blocks:
 
 Make Quiz:
 
-[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742382329/app-inventor/make-quiz-take-quiz/Make%20Quiz.PNG?w=474&ssl=1 "Make Quiz Blocks")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/Make%20Quiz.PNG?attredirects=0)
+[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742382329/app-inventor/make-quiz-take-quiz/Make Quiz.PNG?w=474&ssl=1 "Make Quiz Blocks")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/Make Quiz.PNG?attredirects=0)
 
 Take Quiz:
 
-[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742384434/app-inventor/make-quiz-take-quiz/take%20quiz%20blocks.PNG?w=474&ssl=1 "Take Quiz Blocks")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/take%20quiz%20blocks.PNG?attredirects=0)
+[![](https://i2.wp.com/sites.google.com/site/jamescarrportfolio/_/rsrc/1468742384434/app-inventor/make-quiz-take-quiz/take quiz blocks.PNG?w=474&ssl=1 "Take Quiz Blocks")](https://sites.google.com/site/jamescarrportfolio/app-inventor/make-quiz-take-quiz/take quiz blocks.PNG?attredirects=0)
 
 ### Refer:
 
-* http://www.appinventor.org/MakeQuiz10 – \(English\)
-* https://edu2web.github.io/ai2bookcn/chapter10.html – \(Chinese\)
+* [http://www.appinventor.org/MakeQuiz10](http://www.appinventor.org/MakeQuiz10) – \(English\)
+* [https://edu2web.github.io/ai2bookcn/chapter10.html](https://edu2web.github.io/ai2bookcn/chapter10.html) – \(Chinese\)
 
 
 
